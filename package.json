@@ -1,0 +1,17 @@
+{
+  "name": "bannerblindness",
+  "version": "1.0.0",
+  "description": "Cool project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cool"
+  ],
+  "author": "The White Signal Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-mix": "^4.0.14"
+  }
+}
