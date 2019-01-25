@@ -7,8 +7,8 @@ document.addEventListener("ready", () => {
         itemSelector: '.gridItem',
         percentPosition: true,
         masonry: {
-            columnWidth: '.gridSizer',
-            gutter: 10
+            columnWidth: 50,
+            gutter: 2
         }
     });
 

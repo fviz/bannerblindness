@@ -1,0 +1,17 @@
+.gridColumn {
+	grid-area: contentColumn;
+	//background-color: red;
+
+	.gridSizer {
+		width: 20%;
+	}
+
+	.gridItem {
+		background-color: blue;
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin: 0.5em;
+	}
+
+}

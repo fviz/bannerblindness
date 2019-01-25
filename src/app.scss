@@ -1,3 +1,5 @@
+@import 'grid';
+
 body, html {
 	background-color: #FAFAFA;
 	padding: 2em 1em 2em 1em;
@@ -22,21 +24,6 @@ body, html {
 			box-sizing: border-box;
 		}
 
-	}
-	.gridColumn {
-		grid-area: contentColumn;
-		//background-color: red;
-
-		.gridSizer {
-			width: 20%;
-		}
-
-		.gridItem {
-			background-color: blue;
-			width: 20%;
-			height: 100px;
-			float: left;
-		}
 	}
 }
 
