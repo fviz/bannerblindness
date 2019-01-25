@@ -5,12 +5,12 @@ body, html {
 
 .mainContainer {
 	display: grid;
-	grid-template-columns: 1fr 600px 1fr;
-	grid-template-areas: ".	cardsColumn .";
+	grid-template-columns: 1fr 800px 1fr;
+	grid-template-areas: ".	contentColumn .";
 	width: 100%;
 
 	.cardsColumn {
-		grid-area: cardsColumn;
+		grid-area: contentColumn;
 
 		.adCard {
 			width: 100%;
@@ -22,6 +22,21 @@ body, html {
 			box-sizing: border-box;
 		}
 
+	}
+	.gridColumn {
+		grid-area: contentColumn;
+		//background-color: red;
+
+		.gridSizer {
+			width: 20%;
+		}
+
+		.gridItem {
+			background-color: blue;
+			width: 20%;
+			height: 100px;
+			float: left;
+		}
 	}
 }
 

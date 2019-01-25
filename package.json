@@ -15,6 +15,7 @@
   "author": "The White Signal Inc.",
   "license": "ISC",
   "dependencies": {
+    "isotope-layout": "^3.0.6",
     "laravel-mix": "^4.0.14"
   },
   "devDependencies": {
