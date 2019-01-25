@@ -1,0 +1,33 @@
+body, html {
+	background-color: #FAFAFA;
+	padding: 2em 1em 2em 1em;
+}
+
+.mainContainer {
+	display: grid;
+	grid-template-columns: 1fr 600px 1fr;
+	grid-template-areas: ".	cardsColumn .";
+	width: 100%;
+
+	.cardsColumn {
+		grid-area: cardsColumn;
+
+		.adCard {
+			width: 100%;
+			height: 400px;
+			background-color: #F2F2F2;
+			border-radius: 0.5em;
+			box-shadow: 0 4px 16px 0 rgba(0,0,0,0.15);
+			margin-bottom: 2em;
+			box-sizing: border-box;
+		}
+
+	}
+}
+
+@media (max-width: 800px) {
+	.mainContainer {
+		grid-template-columns: 1fr;
+		grid-template-areas: "cardsColumn";
+	}
+}
